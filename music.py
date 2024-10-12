@@ -5,6 +5,8 @@ from sklearn.metrics.pairwise import euclidean_distances
 # Load the Spotify data
 df = pd.read_csv('spotify_tracks.csv')
 
+print(df.head())
+
 # Define different feature sets for comparison
 features_set1 = ['popularity']  # Compare based on popularity
 features_set2 = ['danceability']  # Compare based on danceability
